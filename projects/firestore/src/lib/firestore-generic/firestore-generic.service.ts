@@ -19,11 +19,11 @@ addByPath(collectionPath: string, data: any): Promise<void> {
 
 
 // create method just to trigger a release through Travis.
-  addSubcontract(data: any): Promise<void> {
-    const collection = this.afs.collection('subcontracts');
-    const id = data.id;
-    return collection.doc(id).set(data);
-  }
+  // addSubcontract(data: any): Promise<void> {
+  //   const collection = this.afs.collection('subcontracts');
+  //   const id = data.id;
+  //   return collection.doc(id).set(data);
+  // }
 
 }
 
