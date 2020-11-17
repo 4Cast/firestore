@@ -6,5 +6,12 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/firestore/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/firestore/tsconfig.spec.json"
+    }
+]
 }
