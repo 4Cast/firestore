@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "build-lib": "ng build firestore",
+    "test": "ng test",
+    "lint": "ng lint",
+    "lint-lib": "ng lint firestore",
+    "e2e": "ng e2e",
+    "commit": "git-cz",
+    "travis-deploy-once": "travis-deploy-once --pro",
+    "semantic-release": "semantic-release"
+  },
+  "name": "@fourcast/firestore",
+  "version": "0.0.0-semantically-released",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
