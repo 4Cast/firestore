@@ -50,7 +50,7 @@ export class FirestoreExtrasService {
     this.collectionBase = 'tenants/' + this.localTenantId + '/';
   }
 
-  public get tenantId() {
+  public get tenantId(): string {
 
     if (this.debugFes) {
       console.log('FIRESTORE SERVICE, getting tenant id', this.localTenantId);
